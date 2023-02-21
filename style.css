@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  place-content: center;
+}
+
+body {
+  background: rgb(62, 82, 149);
+  background: radial-gradient(circle, rgba(83, 101, 163, 1) 0%, rgba(27, 14, 14, 1) 84%);
+
+}
+
+
+.card {
+  margin-top: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 360px;
+  height: 600px;
+  /* justify-items: center; */
+  border: 1px solid rgb(185, 185, 185);
+  border-radius: 7px;
+  background: linear-gradient(500deg, rgba(141, 141, 255, 0.63), rgba(134, 134, 228, 0.349), rgb(159, 133, 255));
+  box-shadow: 0px 2px 10px 2px black;
+}
+
+button {
+
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px black solid;
+  background-color: rgb(132, 25, 255);
+  position: relative;
+  left: 80px;
+}
+
+input {
+  width: 350px;
+  position: relative;
+  bottom: 10px;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  font-family: 'Sofia Sans', sans-serif;
+
+}
+
+h5 {
+  font-weight: lighter;
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+img {
+  position: relative;
+  top: 100px;
+  left: 60px;
+
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+/* <- Demo Stuff Start */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.btn {
+  flex: 1 1 auto;
+  margin: 142px;
+  padding: 5px;
+  text-align: center;
+  text-transform: auto;
+  transition: 0.5s;
+  background-size: 200% auto;
+  /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 7px #eee;
+
+}
+
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+}
+
+.btn-2 {
+  background-image: linear-gradient(to right, #8d8dffa1 30%, #8686e459 65%, #8686e459 80%);
+}
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
